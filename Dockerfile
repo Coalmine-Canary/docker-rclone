@@ -6,3 +6,5 @@ RUN <<EOT
 
   apt-get install -y rclone
 EOT
+
+ENTRYPOINT rclone
